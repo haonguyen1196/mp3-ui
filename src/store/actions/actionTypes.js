@@ -1,0 +1,16 @@
+const actionTypes = {
+    GET_HOME: 'GET_HOME',
+    SET_CUR_SONG_ID: 'SET_CUR_SONG_ID',
+    SET_CUR_SONG_DATA: 'SET_CUR_SONG_DATA',
+    SET_RECENT_SONG: 'SET_RECENT_SONG',
+
+    //music
+    PLAY: 'PLAY',
+    AT_ALBUM: 'AT_ALBUM',
+    PLAYLIST: 'PLAYLIST',
+    SEARCH: 'SEARCH',
+    SEARCH_PLAYLIST: 'SEARCH_PLAYLIST',
+    SCROLL_TOP: 'SCROLL_TOP',
+}
+
+export default actionTypes

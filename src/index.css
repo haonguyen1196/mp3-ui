@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-shadow-no1 {
+    text-shadow: 1px 1px 0 #4a90e2, -1px 1px 0 #4a90e2, -1px -1px 0 #4a90e2, 1px -1px 0 #4a90e2
+}
+
+.text-shadow-no2 {
+    text-shadow: 1px 1px 0 #50e3c2, -1px 1px 0 #50e3c2, -1px -1px 0 #50e3c2, 1px -1px 0 #50e3c2
+}
+
+.text-shadow-no3 {
+    text-shadow: 1px 1px 0 #e35050, -1px 1px 0 #e35050, -1px -1px 0 #e35050, 1px -1px 0 #e35050
+}
+
+.text-shadow-no4 {
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.3), -1px 1px 0 rgba(0,0,0,0.3), -1px -1px 0 rgba(0,0,0,0.3), 1px -1px 0 rgba(0,0,0,0.3)
+}
+
+.slick-prev:before {
+    font-size: 34px !important
+}
+
+.slick-next:before {
+    font-size: 34px !important
+}
+
+.slick-next {
+    right: -10px !important
+}
+
+.slick-prev {
+    left: -20px !important
+}
+
